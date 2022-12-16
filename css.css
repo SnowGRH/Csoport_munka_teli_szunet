@@ -1,9 +1,37 @@
-/*main*/
-main{
-    display: grid;
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:rgb(36, 16, 16);
+    background-image: url("teglafal.jpg");
 }
 
+/*main*/
+main{
+    background-color: rgb(204, 175, 175);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "head art art"
+    "foo foo foo";
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    
+}
+main,header,article,footer{
+    border: 1px solid gray ;
+}
+header{
+    grid-area: head;
 
+}
+article{
+    grid-area: art;
+}
+footer{
+    grid-area: foo;
+    
+}
 
 
 
