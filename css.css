@@ -290,3 +290,33 @@ img{
 }
 
 }
+
+.ocean{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin: 5px;
+}
+.erdokvizek{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin: 5px;
+}
+.erdokvizek>img{
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.ocean>img{
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.ocean>h2>a:hover{
+    transition: .5s;
+    color: rgb(0, 143, 148);
+}
+.erdokvizek>h2>a:hover{
+    transition: .5s;
+    color: rgb(0, 143, 148);
+}
+
