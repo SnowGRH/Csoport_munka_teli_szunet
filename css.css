@@ -10,28 +10,30 @@ body{
 
 /*main*/
 main{
-    background-color: rgb(204, 175, 175);
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas: 
-    "head art art";
+    "f f f f"
+    "head art art ny";
     width: 60%;
     margin-left: 20%;
     margin-top: 5%;
-    
+    text-align: center;    
     
 }
-main,header,article{
+header,article{
     border: 1px solid gray ;
 }
 /*header*/
 header{
     grid-area: head;
+    background-color: rgb(204, 175, 175);
 
 }
 /*artical*/
 article{
     grid-area: art;
+    background-color: rgb(204, 175, 175);
 }
 article>p{
     padding: 10px;
@@ -112,3 +114,47 @@ img{
     color: rgb(0, 143, 148);
 }
 
+.valto {
+    text-align: center;
+    margin: 10px;
+    grid-area: ny;
+    background-color: transparent;
+}
+.valto img {
+    border-radius: 20px;
+    width: 100px;
+}
+.valto a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.valto a:hover{
+    transition: .5s;
+    color: rgb(194, 192, 192);
+}
+.fokep {
+    text-align: center;
+    margin: 10px;
+    display: grid;
+    grid-area: f;
+    background-color: transparent;
+}
+.fokep img {
+    border-radius: 20px;
+    width: 300px;
+    margin: auto;
+}
+
+.oldalkep{
+    border-radius: 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+.oldalkep>img{
+    border-radius: 10px;
+    margin-top: 10px;
+}
