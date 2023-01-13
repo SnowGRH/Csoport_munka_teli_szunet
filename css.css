@@ -71,6 +71,11 @@ footer{
     width: 50%;
     bottom: 10px;   
 }
+/*table*/
+
+.table1,th,td{
+    border: 1px solid rgb(0, 0, 0);
+}
 /*span*/
 span{
     font-weight: bold;
@@ -79,36 +84,26 @@ span{
 .torlesli{
     list-style-type:none ;
 }
+/*h1 center*/
+article>h1{
+    text-align: center;
+}
 /*img*/
 img{
     width: 100%;
 }
-.ocean{
+.ocean,.erdokvizek{
     background-color: white;
     border-radius: 20px;
     text-align: center;
     margin: 5px;
 }
-.erdokvizek{
-    background-color: white;
-    border-radius: 20px;
-    text-align: center;
-    margin: 5px;
-}
-.erdokvizek>img{
+.erdokvizek>img, .ocean>img{
+    width: 95%;
     border-radius: 10px;
     margin-top: 10px;
 }
-.ocean>img{
-    border-radius: 10px;
-    margin-top: 10px;
-}
-.ocean>h2>a:hover{
+.ocean>h2>a:hover, .erdokvizek>h2>a:hover{
     transition: .5s;
     color: rgb(0, 143, 148);
 }
-.erdokvizek>h2>a:hover{
-    transition: .5s;
-    color: rgb(0, 143, 148);
-}
-
