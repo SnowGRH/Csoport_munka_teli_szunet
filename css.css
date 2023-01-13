@@ -1,4 +1,3 @@
-
 body{
     position: static;
     display: grid;
@@ -15,15 +14,14 @@ main{
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-areas: 
-    "head art art"
-    "foo foo foo";
+    "head art art";
     width: 60%;
     margin-left: 20%;
     margin-top: 5%;
     
     
 }
-main,header,article,footer{
+main,header,article{
     border: 1px solid gray ;
 }
 /*header*/
@@ -39,26 +37,22 @@ article>p{
     padding: 10px;
     font-size: 20px;
 }
-/*footer*/
-footer{
-    grid-area: foo;
-    
-}
 /*nav bar*/
-
 nav{
-    background-color: #ececec;
+    
     position: fixed;
     padding-right: 100%;
     height: 60px;
 }
-ul{
+nav>ul{
     width: 100%;
     gap: 70px;
-
     list-style: none;
     display: grid;
     grid-template-columns: auto auto auto;
+}
+nav>ul>li>a{
+    color: white;
 }
 a{
     color: #1d2221;
@@ -70,10 +64,24 @@ a:hover{
     transition: .5s;
     color: rgb(61, 60, 60);
 }
-
+/*footer*/
+footer{
+    color: white;
+    position: fixed;
+    width: 50%;
+    bottom: 10px;   
+}
+/*span*/
+span{
+    font-weight: bold;
+}
+/*li torles*/
+.torlesli{
+    list-style-type:none ;
+}
 /*img*/
 img{
-    width: 350px;
+    width: 100%;
 }
 .ocean{
     background-color: white;
