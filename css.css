@@ -41,9 +41,8 @@ article>p{
 }
 /*nav bar*/
 nav{
-    
+    font-size: 17px;
     position: fixed;
-    padding-right: 100%;
     height: 60px;
 }
 nav>ul{

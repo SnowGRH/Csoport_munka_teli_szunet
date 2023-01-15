@@ -1,9 +1,22 @@
 @media only screen and (max-width: 800px) {
     main{
-        grid-template-columns: 1fr;
-            grid-template-areas: 
+    grid-template-columns: 1fr;
+    grid-template-areas: 
     "head"
     "art"
     "foo";
+    width: 65%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 15%;
+    }
+    nav{
+        padding-right: 10%;
+    }
+    article{
+        font-size: 20px;
+    }
+    img{
+        width: 95%;
     }
 }
