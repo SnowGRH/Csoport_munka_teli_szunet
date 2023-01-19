@@ -2,6 +2,7 @@
     main{
     grid-template-columns: 1fr;
     grid-template-areas: 
+    "sz"
     "head"
     "art"
     "foo";
@@ -22,4 +23,9 @@
     img{
         width: 95%;
     }
+    
+    .fokep1 img {
+        display: none;
+    }
+    
 }
