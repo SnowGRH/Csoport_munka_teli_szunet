@@ -34,6 +34,7 @@ header{
 article{
     grid-area: art;
     background-color: rgb(204, 175, 175);
+    margin-right: 10%;
 }
 article>p{
     padding: 10px;
@@ -89,7 +90,7 @@ span{
 }
 /*img*/
 img{
-    width: 100%;
+    width: 95%;
 }
 .ocean{
     background-color: white;
